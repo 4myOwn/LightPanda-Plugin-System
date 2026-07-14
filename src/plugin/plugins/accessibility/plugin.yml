@@ -1,0 +1,16 @@
+name: Accessibility Checker
+id: accessibility
+version: 1.0.0
+author: Lightpanda Team
+description: Audits web pages for accessibility compliance (WCAG)
+entry: plugin.so
+api: 1
+permissions:
+  - dom.read
+  - console.read
+  - events.subscribe
+hooks:
+  - onDOMReady
+  - onAccessibilityTree
+  - onRender
+dependencies: []

@@ -1,0 +1,15 @@
+name: SEO Inspector
+id: seo
+version: 1.0.0
+author: Lightpanda Team
+description: Analyzes web pages for SEO optimization opportunities
+entry: plugin.so
+api: 1
+permissions:
+  - dom.read
+  - network.read
+  - console.read
+hooks:
+  - onDOMReady
+  - onPageLoaded
+dependencies: []

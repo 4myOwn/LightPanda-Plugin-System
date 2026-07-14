@@ -1,0 +1,15 @@
+name: Geo Location
+id: geo
+version: 1.0.0
+author: Lightpanda Team
+description: Provides geolocation services and location-based features
+entry: plugin.so
+api: 1
+permissions:
+  - storage.read
+  - storage.write
+  - network.read
+hooks:
+  - onBrowserStart
+  - onNavigationEnd
+dependencies: []
