@@ -1,10 +1,23 @@
-/.zig-cache/
-/.lp-cache/
-/.lp-history
-/.lp-history.js
-/.lp-agent.zon
-/zig-pkg/
-zig-out
-lightpanda.id
-/src/html5ever/target/
-src/snapshot.bin
+```
+# Build artifacts
+zig-cache/
+zig-out/
+target/
+
+# Dependencies
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+```
